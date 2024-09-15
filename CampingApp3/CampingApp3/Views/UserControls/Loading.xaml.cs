@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAnimatedGif;
 
 namespace CampingApp3.Views.UserControls
 {
@@ -23,6 +24,14 @@ namespace CampingApp3.Views.UserControls
         public Loading()
         {
             InitializeComponent();
+
+            var image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri("pack://application:,,,/loading.gif");
+            image.EndInit();
+
+            // Stel de GIF in op het Image element
+            ImageBehavior.SetAnimatedSource(LoadingImage, image);
         }
     }
 }

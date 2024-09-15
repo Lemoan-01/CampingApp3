@@ -8,11 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Data\" />
     <Folder Include="Resources\Images\Icons\" />
 	<Folder Include="Styles" />
 	<Folder Include="ViewModels" />
 	<Folder Include="Views\UserControls" />
   </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MySqlConnector" Version="2.3.7" />
+		<PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+	</ItemGroup>
 
 </Project>
