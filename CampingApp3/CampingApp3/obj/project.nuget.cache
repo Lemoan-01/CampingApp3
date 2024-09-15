@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4pDhJWsn0NWrTe69E8k7nOOVzlkEE9IbOHC35u/j+1WXL9qrwiG0djsG6twhi2MMEl2pl3Zor3WSDv8J5BapNg==",
+  "dgSpecHash": "DSuV3in7DSg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thimo\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
