@@ -8,8 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="Resources\Images\Icons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.3.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\Models\Data\.editorconfig" />
   </ItemGroup>
 
 </Project>
