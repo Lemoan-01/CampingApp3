@@ -4,7 +4,7 @@ using System.Windows.Input;
 
 namespace Homepage.ViewModels
 {
-    class NavigationVM : ViewModelBase
+    public class NavigationVM : ViewModelBase
     {
         private object _currentView;
 
@@ -22,7 +22,7 @@ namespace Homepage.ViewModels
         public ICommand AdminCommand { get; set; }
 
         private void Home(object obj) => CurrentView = new HomeVM();
-        private void Reservation(object obj) => CurrentView = new ReservationVM();
+        private void Map(object obj) => CurrentView = new MapVM();
         private void Login(object obj) => CurrentView = new LoginVM();
         private void Account(object obj) => CurrentView = new AccountVM();
         private void Register(object obj) => CurrentView = new RegisterVM();
@@ -32,7 +32,7 @@ namespace Homepage.ViewModels
         {
             // Add the RelayCommands when adding a new Page
             HomeCommand = new RelayCommand(Home);
-            ReservationCommand = new RelayCommand(Reservation);
+            ReservationCommand = new RelayCommand(Map);
             LoginCommand = new RelayCommand(Login);
             AccountCommand = new RelayCommand(Account);
             RegisterCommand = new RelayCommand(Register);

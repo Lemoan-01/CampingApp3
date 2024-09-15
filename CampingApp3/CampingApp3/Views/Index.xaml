@@ -1,14 +1,12 @@
-﻿<Window x:Class="CampingApp3.Index"
+﻿<local:WindowBase
+        x:Class="CampingApp3.Views.Index"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CampingApp3"
+        xmlns:local="clr-namespace:CampingApp3.Views"
         mc:Ignorable="d"
         Title="Index" Height="450" Width="800">
-    <Window.DataContext>
-        <vm:NavigationVM/>
-    </Window.DataContext>
 
     <!-- Exit/Minimize Style -->
     <Window.Resources>
@@ -134,4 +132,4 @@
             </Grid>
         </Grid>
     </Border>
-</Window>
+</local:WindowBase>

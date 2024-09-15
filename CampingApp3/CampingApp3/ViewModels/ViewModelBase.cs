@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace CampingApp3.ViewModels
 {
-    class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
