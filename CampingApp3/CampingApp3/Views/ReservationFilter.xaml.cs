@@ -24,11 +24,11 @@ namespace CampingApp3.Views
         public static DateTime firstDates { get; set; }
         public static DateTime lastDates { get; set; }
         private int dateSelectionCounter = 0;
-        public ReservationFilter()
+        public ReservationFilter() : base()
         {
-            InitializeComponent();
+			base.ChildForm = this; InitializeComponent();
 
-            Owner = Application.Current.MainWindow; // Set the owner to MainWindow
+			Owner = Application.Current.MainWindow; // Set the owner to MainWindow
             UpdatePosition(); // Set initial position
             Application.Current.MainWindow.LocationChanged += MainWindow_LocationChanged; // Subscribe to LocationChanged event
             Application.Current.MainWindow.SizeChanged += MainWindow_SizeChanged; // Subscribe to SizeChanged event
@@ -39,6 +39,9 @@ namespace CampingApp3.Views
             StartDatePicker.DisplayDate = DateTime.Now;
             EndDatePicker.DisplayDate = DateTime.Now;
         }
+
+
+
 
         private void MainWindow_LocationChanged(object sender, EventArgs e)
         {

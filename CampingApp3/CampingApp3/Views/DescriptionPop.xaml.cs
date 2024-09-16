@@ -23,7 +23,7 @@ namespace CampingApp3.Views
     {
         private int placeID;
 
-        public DescriptionPop(int placeID)
+        public DescriptionPop(int placeID) : base()
         {
             InitializeComponent();
 
