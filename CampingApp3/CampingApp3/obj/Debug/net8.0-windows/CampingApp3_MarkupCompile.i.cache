@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-16-467371827
+16-1046224648
 
-371641507703
+3318666838
 2011576062951
-Resources\DataTemplate.xaml;Styles\Button.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\App.xaml;Views\DescriptionPop.xaml;Views\Index.xaml;Views\MakeReservationPage.xaml;Views\ReservationFilter.xaml;Views\UserControls\Account.xaml;Views\UserControls\Admin.xaml;Views\UserControls\Home.xaml;Views\UserControls\Loading.xaml;Views\UserControls\Login.xaml;Views\UserControls\Map.xaml;Views\UserControls\Register.xaml;
+Resources\DataTemplate.xaml;Styles\Button.xaml;Styles\Page.xaml;Styles\Text.xaml;Views\DescriptionPop.xaml;Views\Index.xaml;Views\MakeReservationPage.xaml;Views\ReservationFilter.xaml;Views\UserControls\Account.xaml;Views\UserControls\Admin.xaml;Views\UserControls\Home.xaml;Views\UserControls\Loading.xaml;Views\UserControls\Login.xaml;Views\UserControls\Map.xaml;Views\UserControls\Register.xaml;Views\WindowBase.xaml;
 
-True
+False
 

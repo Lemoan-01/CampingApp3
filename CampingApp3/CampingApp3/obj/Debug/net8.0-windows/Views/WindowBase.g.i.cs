@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using CampingApp3.Views.UserControls;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -53,7 +52,7 @@ namespace CampingApp3.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CampingApp3;V1.0.0.0;component/views/windowbase.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CampingApp3;component/views/windowbase.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\WindowBase.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

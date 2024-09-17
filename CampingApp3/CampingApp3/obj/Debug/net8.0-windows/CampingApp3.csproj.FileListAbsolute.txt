@@ -16,8 +16,6 @@ C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windo
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.lref
-<<<<<<< Updated upstream
-=======
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\Index.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Account.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Admin.baml
@@ -40,4 +38,3 @@ C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windo
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.csproj.CoreCompileInputs.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.sourcelink.json
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\ref\CampingApp3.dll
->>>>>>> Stashed changes
