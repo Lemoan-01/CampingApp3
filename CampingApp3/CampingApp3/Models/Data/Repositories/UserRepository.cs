@@ -1,9 +1,8 @@
-﻿using CampingApp3.Models.Data;
+﻿using System;
+using System.Data;
 using MySqlConnector;
-using Homepage.ViewModels;
-using System.Windows;
-using System;
 using CampingApp3.Models.Data.Interfaces;
+using CampingApp3.Models.Data;
 
 public class UserRepository : IUserRepository
 {
@@ -20,22 +19,17 @@ public class UserRepository : IUserRepository
 
         try
         {
-            using (var connection = _dbConnection.CreateConnection())
+            string query = "SELECT email FROM user WHERE userID = @userID;";
+            var parameters = new[]
             {
-                connection.Open();
-                string query = "SELECT email FROM user WHERE userID = @userID;";
-                using (var command = new MySqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@userID", userID);
+                new MySqlParameter("@userID", userID)
+            };
 
-                    using (var reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            email = reader["email"].ToString();
-                        }
-                    }
-                }
+            DataTable dataTable = _dbConnection.ExecuteQuery(query, parameters);
+
+            if (dataTable.Rows.Count > 0)
+            {
+                email = dataTable.Rows[0]["email"].ToString();
             }
         }
         catch (Exception ex)
@@ -49,22 +43,16 @@ public class UserRepository : IUserRepository
     public void Register(string email, int phoneNumber, string password)
     {
         string query = "INSERT INTO user (email, phoneNumber, password) VALUES (@email, @phoneNumber, SHA2(@password, 256))";
+        var parameters = new[]
+        {
+            new MySqlParameter("@email", email),
+            new MySqlParameter("@phoneNumber", phoneNumber),
+            new MySqlParameter("@password", password)
+        };
 
         try
         {
-            using (var connection = _dbConnection.CreateConnection())
-            {
-                connection.Open();
-
-                using (var command = new MySqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@email", email);
-                    command.Parameters.AddWithValue("@phoneNumber", phoneNumber);
-                    command.Parameters.AddWithValue("@password", password);
-
-                    command.ExecuteNonQuery();
-                }
-            }
+            _dbConnection.ExecuteNonQuery(query, parameters);
         }
         catch (Exception ex)
         {
@@ -73,28 +61,24 @@ public class UserRepository : IUserRepository
         }
     }
 
-    public bool LoginVerificatoin(string email, string password)
+    public bool LoginVerification(string email, string password)
     {
         string loginQuery = "SELECT COUNT(*) FROM user WHERE email = @Email AND password = SHA2(@Password, 256)";
+        var parameters = new[]
+        {
+            new MySqlParameter("@Email", email),
+            new MySqlParameter("@Password", password)
+        };
 
         try
         {
-            using (var connection = _dbConnection.CreateConnection())
+            DataTable resultTable = _dbConnection.ExecuteQuery(loginQuery, parameters);
+
+            // Check the count from the result
+            if (resultTable.Rows.Count > 0)
             {
-                connection.Open();
-
-                using (var command = new MySqlCommand(loginQuery, connection))
-                {
-                    // Add parameters for email and password
-                    command.Parameters.AddWithValue("@Email", email);
-                    command.Parameters.AddWithValue("@Password", password);
-
-                    // Execute scalar to check if a matching user exists
-                    int count = Convert.ToInt32(command.ExecuteScalar());
-
-                    // Return true if a user was found, otherwise false
-                    return true;
-                }
+                int count = Convert.ToInt32(resultTable.Rows[0][0]);
+                return count > 0;
             }
         }
         catch (Exception ex)
@@ -103,6 +87,6 @@ public class UserRepository : IUserRepository
             throw;
         }
 
+        return false;
     }
-
 }

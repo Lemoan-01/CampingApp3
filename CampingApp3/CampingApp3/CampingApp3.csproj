@@ -8,10 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Resources\Images\Icons\" />
-	<Folder Include="Styles" />
-	<Folder Include="ViewModels" />
-	<Folder Include="Views\UserControls" />
+    <Compile Remove="Resources\**" />
+    <Compile Remove="Styles\**" />
+    <Compile Remove="ViewModels\**" />
+    <Compile Remove="Views\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <EmbeddedResource Remove="Styles\**" />
+    <EmbeddedResource Remove="ViewModels\**" />
+    <EmbeddedResource Remove="Views\**" />
+    <None Remove="Resources\**" />
+    <None Remove="Styles\**" />
+    <None Remove="ViewModels\**" />
+    <None Remove="Views\**" />
+    <Page Remove="Resources\**" />
+    <Page Remove="Styles\**" />
+    <Page Remove="ViewModels\**" />
+    <Page Remove="Views\**" />
   </ItemGroup>
 
 	<ItemGroup>

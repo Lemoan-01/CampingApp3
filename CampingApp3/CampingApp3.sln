@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampingApp3", "CampingApp3\CampingApp3.csproj", "{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Camping.tests", "Tests\Camping.tests.csproj", "{24652548-C705-41C9-9DB1-AAE07EC304FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camping.tests", "Tests\Camping.tests.csproj", "{24652548-C705-41C9-9DB1-AAE07EC304FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

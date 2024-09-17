@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\tests\\reservationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|solutionrelative:tests\\reservationservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\tests\\placeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|solutionrelative:tests\\placeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24652548-C705-41C9-9DB1-AAE07EC304FB}|Tests\\Camping.tests.csproj|solutionrelative:tests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\windesheim\\hbo ict\\oosddinfo\\kbs\\oosdd-v3\\campingapp3\\campingapp3\\campingapp3\\models\\data\\idatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\idatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 38,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,6 +211,162 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1776241114:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationServiceTests.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\ReservationServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ReservationServiceTests.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\ReservationServiceTests.cs*",
+              "RelativeToolTip": "Tests\\ReservationServiceTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:27:04.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\ReservationService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\ReservationService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:26:05.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaceServiceTests.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\PlaceServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\PlaceServiceTests.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\PlaceServiceTests.cs",
+              "RelativeToolTip": "Tests\\PlaceServiceTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:24:51.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlaceService.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\PlaceService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\PlaceService.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\PlaceService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\PlaceService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:23:08.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAAwAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:22:42.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\Tests\\UserServiceTests.cs",
+              "RelativeToolTip": "Tests\\UserServiceTests.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:30:59.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:37:39.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:39:58.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\UserService.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\UserService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\UserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:06:20.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlaceRepository.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:03:12.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\IDatabaseConnection.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\IDatabaseConnection.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\IDatabaseConnection.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\IDatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:40:03.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Windesheim\\HBO ict\\OOSDDInfo\\KBS\\OOSDD-v3\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:04:42.408Z",
+              "EditorCaption": ""
             }
           ]
         }

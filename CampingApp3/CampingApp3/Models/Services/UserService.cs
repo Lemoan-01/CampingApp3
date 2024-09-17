@@ -28,7 +28,7 @@ namespace CampingApp3.Models.Services
 
         public bool LoginVerification(string email, string password)
         {
-            return _userRepository.LoginVerificatoin(email, password);
+            return _userRepository.LoginVerification(email, password);
         }
     }
 }

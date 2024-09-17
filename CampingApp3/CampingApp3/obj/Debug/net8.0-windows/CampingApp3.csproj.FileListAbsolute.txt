@@ -7,11 +7,15 @@ C:\Users\leond\source\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Generated
 C:\Users\leond\source\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.lref
 C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.csproj.AssemblyReference.cache
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Button.baml
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Page.baml
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Text.baml
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Account.g.cs
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Loading.g.cs
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.cache
-C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.lref
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\refint\CampingApp3.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.pdb
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.deps.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.dll
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.pdb
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.sourcelink.json
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\ref\CampingApp3.dll

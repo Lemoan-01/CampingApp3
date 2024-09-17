@@ -12,6 +12,6 @@ namespace CampingApp3.Models.Data.Interfaces
 
         void Register(string email, int phoneNumber, string password);
 
-        bool LoginVerificatoin(string email,  string password);
+        bool LoginVerification(string email, string password);
     }
 }
