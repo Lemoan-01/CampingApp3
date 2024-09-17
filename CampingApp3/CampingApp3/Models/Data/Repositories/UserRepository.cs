@@ -1,51 +1,108 @@
-﻿using MySqlConnector;
+﻿using CampingApp3.Models.Data;
+using MySqlConnector;
+using Homepage.ViewModels;
+using System.Windows;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CampingApp3.Models.Data.Interfaces;
 
-namespace CampingApp3.Models.Data.Repositories
+public class UserRepository : IUserRepository
 {
-    public class UserRepository : IUserRepository
+    private readonly IDatabaseConnection _dbConnection;
+
+    public UserRepository(IDatabaseConnection dbConnection)
     {
-        private readonly string _connectionString;
+        _dbConnection = dbConnection;
+    }
 
-        public UserRepository(string connectionString)
-        {
-            _connectionString = connectionString;
-        }
-        public string GetEmail(int userID)
-        {
-            string _email = null; // Initialiseer _email om compilerfouten te voorkomen
+    public string GetEmail(int userID)
+    {
+        string email = null;
 
-            try
+        try
+        {
+            using (var connection = _dbConnection.CreateConnection())
             {
-                using (MySqlConnection connection = new MySqlConnection(_connectionString))
+                connection.Open();
+                string query = "SELECT email FROM user WHERE userID = @userID;";
+                using (var command = new MySqlCommand(query, connection))
                 {
-                    connection.Open();
-
-                    string query = "SELECT email FROM user WHERE userID = @userID;";
-                    MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@userID", userID);
 
-                    using (MySqlDataReader reader = command.ExecuteReader())
+                    using (var reader = command.ExecuteReader())
                     {
-                        if (reader.Read()) // Controleer of er resultaten zijn
+                        if (reader.Read())
                         {
-                            // Haal de email op uit de reader en wijs deze toe aan _email
-                            _email = reader["email"].ToString();
+                            email = reader["email"].ToString();
                         }
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
-            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
 
-            return _email;
+        return email;
+    }
+
+    public void Register(string email, int phoneNumber, string password)
+    {
+        string query = "INSERT INTO user (email, phoneNumber, password) VALUES (@email, @phoneNumber, SHA2(@password, 256))";
+
+        try
+        {
+            using (var connection = _dbConnection.CreateConnection())
+            {
+                connection.Open();
+
+                using (var command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@email", email);
+                    command.Parameters.AddWithValue("@phoneNumber", phoneNumber);
+                    command.Parameters.AddWithValue("@password", password);
+
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error occurred while registering: " + ex.Message);
+            throw;
+        }
+    }
+
+    public bool LoginVerificatoin(string email, string password)
+    {
+        string loginQuery = "SELECT COUNT(*) FROM user WHERE email = @Email AND password = SHA2(@Password, 256)";
+
+        try
+        {
+            using (var connection = _dbConnection.CreateConnection())
+            {
+                connection.Open();
+
+                using (var command = new MySqlCommand(loginQuery, connection))
+                {
+                    // Add parameters for email and password
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    // Execute scalar to check if a matching user exists
+                    int count = Convert.ToInt32(command.ExecuteScalar());
+
+                    // Return true if a user was found, otherwise false
+                    return true;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error occurred during login: " + ex.Message);
+            throw;
         }
 
     }
+
 }

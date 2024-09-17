@@ -1,0 +1,7 @@
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\bin\Debug\net8.0-windows\CoverletSourceRootsMapping_Camping.tests
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.csproj.AssemblyReference.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.AssemblyInfoInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.AssemblyInfo.cs
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.csproj.CoreCompileInputs.cache
+C:\Windesheim\HBO ict\OOSDDInfo\KBS\OOSDD-v3\CampingApp3\CampingApp3\Tests\obj\Debug\net8.0-windows\Camping.tests.sourcelink.json

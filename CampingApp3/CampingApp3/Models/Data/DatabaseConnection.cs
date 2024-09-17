@@ -7,18 +7,15 @@ using MySqlConnector;
 
 namespace CampingApp3.Models.Data
 {
-    public class DatabaseConnection
+    public class DatabaseConnection : IDatabaseConnection
     {
-        private readonly string _connectionString;
+        private static readonly string ConnectionString = "Server=localhost;Port=3306;Database=CampingDB;Uid=kbs;Pwd=camping;";
 
-        public DatabaseConnection(string connectionString)
-        {
-            _connectionString = "Server=localhost;Port=3306;Database=CampingDB;Uid=kbs;Pwd=camping;";
-        }
+        
 
-        public MySqlConnection GetConnection()
+        public MySqlConnection CreateConnection()
         {
-            return new MySqlConnection(_connectionString);
+            return new MySqlConnection(ConnectionString);
         }
     }
 }

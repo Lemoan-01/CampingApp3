@@ -1,4 +1,5 @@
-﻿using MySqlConnector;
+﻿using CampingApp3.Models.Data.Interfaces;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Data;
