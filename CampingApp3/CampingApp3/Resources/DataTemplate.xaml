@@ -4,11 +4,11 @@
                     xmlns:view="clr-namespace:CampingApp3.Views.UserControls">
 
     <DataTemplate DataType="{x:Type vm:HomeVM}">
-        <view:Home/>
+        <view:Home />
     </DataTemplate>
 
     <DataTemplate DataType="{x:Type vm:MapVM}">
-        <view:Map/>
+        <view:Map />
     </DataTemplate>
 
     <DataTemplate DataType="{x:Type vm:LoginVM}">

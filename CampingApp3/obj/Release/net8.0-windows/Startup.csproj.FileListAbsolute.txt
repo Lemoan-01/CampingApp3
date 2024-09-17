@@ -1,5 +1,0 @@
-C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Release\net8.0-windows\Startup.csproj.AssemblyReference.cache
-C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Release\net8.0-windows\MainWindow.g.cs
-C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Release\net8.0-windows\App.g.cs
-C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Release\net8.0-windows\Startup_MarkupCompile.cache
-C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Release\net8.0-windows\Startup_MarkupCompile.lref

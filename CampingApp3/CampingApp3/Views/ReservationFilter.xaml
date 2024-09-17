@@ -17,7 +17,7 @@
 
             <!-- Top bar -->
             <Grid Grid.Row="0" Background="#282C31" Height="30">
-                <Button x:Name="btnTerminate" Content="✖️" Style="{StaticResource HoverButtonStyle}" Margin="1,0,0,0" Width="30" Height="30" FontFamily="Century Gothic" HorizontalAlignment="Right" Click="Button_Click"/>
+                <Button x:Name="btnTerminate" Content="✖️" Style="{StaticResource HoverButtonStyle}" Margin="1,0,0,0" Width="30" Height="30" FontFamily="Century Gothic" HorizontalAlignment="Right" Click="btnTerminate_Click"/>
             </Grid>
 
             <!-- Filters -->
@@ -44,7 +44,7 @@
                     </DatePicker>
 
                     <!-- Apply Filter Button -->
-                    <Button x:Name="ApplyFilter" Content="Apply Filter" Margin="5,10,5,0" HorizontalAlignment="Center" Background="#00DDDDDD" Foreground="White" Width="155" Height="40" BorderBrush="#FF2C9BFF" Click="Button_Click"/>
+                    <Button Content="Apply Filter" Margin="5,10,5,0" HorizontalAlignment="Center" Background="#00DDDDDD" Foreground="White" Width="155" Height="40" BorderBrush="#FF2C9BFF" Click="Button_Click"/>
                     <Label x:Name="LblStayDuration" Content="" Foreground="White" Height="52" Width="181" FontSize="16" FontFamily="Yu Gotic UI Semibold"/>
                 </StackPanel>
             </Grid>

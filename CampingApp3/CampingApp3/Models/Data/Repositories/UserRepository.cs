@@ -1,10 +1,4 @@
-<<<<<<< Updated upstream
 ﻿using MySqlConnector;
-=======
-﻿using CampingApp3.Models.Data;
-using MySqlConnector;
-using System.Windows;
->>>>>>> Stashed changes
 using System;
 using System.Collections.Generic;
 using System.Linq;

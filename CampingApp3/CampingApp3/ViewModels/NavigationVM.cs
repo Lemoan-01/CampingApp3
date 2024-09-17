@@ -2,7 +2,7 @@
 using CampingApp3.ViewModels;
 using System.Windows.Input;
 
-namespace CampingApp3.ViewModels
+namespace Homepage.ViewModels
 {
     public class NavigationVM : ViewModelBase
     {

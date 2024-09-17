@@ -26,13 +26,8 @@ namespace CampingApp3.Views
         private int dateSelectionCounter = 0;
         public ReservationFilter() : base()
         {
-<<<<<<< Updated upstream
 			base.ChildForm = this; InitializeComponent();
 
-=======
-			InitializeComponent();
-            WindowBase wb = new WindowBase();
->>>>>>> Stashed changes
 			Owner = Application.Current.MainWindow; // Set the owner to MainWindow
             UpdatePosition(); // Set initial position
             Application.Current.MainWindow.LocationChanged += MainWindow_LocationChanged; // Subscribe to LocationChanged event
@@ -125,23 +120,12 @@ namespace CampingApp3.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-<<<<<<< Updated upstream
             var reservationWindow = Reservation.Instance;
             reservationWindow.LoadDataAsync();
-=======
-            Button btn = (Button)sender;
->>>>>>> Stashed changes
 
-            if (btn.Name == "ApplyFilter")
+            if (reservationWindow != null && StartDatePicker.SelectedDate != null && EndDatePicker.SelectedDate != null)
             {
-<<<<<<< Updated upstream
                 if (dbFunc.IsConnectionAvailable()) // Check if database connection is available
-=======
-                var reservationWindow = Map.Instance;
-                reservationWindow.LoadDataAsync();
-
-                if (reservationWindow != null && StartDatePicker.SelectedDate != null && EndDatePicker.SelectedDate != null)
->>>>>>> Stashed changes
                 {
                     Grid mapGrid = reservationWindow.GetMapGrid();
                     int btnCounter = 0;
@@ -168,16 +152,12 @@ namespace CampingApp3.Views
                 }
                 else
                 {
-<<<<<<< Updated upstream
                     MessageBox.Show("No database connection. Please check your connection and try again.");
-=======
-                    MessageBox.Show("The reservation window is closed, or dates have not been selected.");
->>>>>>> Stashed changes
                 }
             }
-            if (btn.Name == "btnTerminate")
+            else
             {
-                this.Close(); // Close the filter window
+                MessageBox.Show("The reservation window is closed, or dates have not been selected.");
             }
         }
     }
