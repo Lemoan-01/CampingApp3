@@ -1,6 +1,37 @@
+<<<<<<< Updated upstream:Startup/obj/Debug/net8.0-windows/Startup.csproj.FileListAbsolute.txt
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.AssemblyReference.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfoInputs.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfo.cs
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.CoreCompileInputs.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.sourcelink.json
+=======
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.AssemblyReference.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup_MarkupCompile.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup_MarkupCompile.lref
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Startup.exe
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Startup.deps.json
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Startup.runtimeconfig.json
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Startup.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Startup.pdb
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\CampingApp3.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\bin\Debug\net8.0-windows\CampingApp3.pdb
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.g.resources
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfoInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfo.cs
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.sourcelink.json
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.Up2Date
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\refint\Startup.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.pdb
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.genruntimeconfig.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\ref\Startup.dll
+>>>>>>> Stashed changes:CampingApp3/Startup/obj/Debug/net8.0-windows/Startup.csproj.FileListAbsolute.txt

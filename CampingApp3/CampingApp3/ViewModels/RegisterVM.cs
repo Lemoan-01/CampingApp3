@@ -1,7 +1,7 @@
 ﻿using CampingApp3.ViewModels;
 using System.Windows.Input;
 
-namespace Homepage.ViewModels
+namespace CampingApp3.ViewModels
 {
     class RegisterVM : ViewModelBase
     {

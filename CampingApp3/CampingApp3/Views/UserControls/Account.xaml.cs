@@ -85,7 +85,7 @@ namespace CampingApp3.Views.UserControls
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button;
+            Button button = (Button)sender;
 
             if (button.Name == "btnDelReservation") //toch wel ff check hé
             {

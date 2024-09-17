@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CampingApp3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c61a41af2fad7c927c23f3bdd6b3ec7ffa0dc1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ec3931ff00fa9c2abb20dfd861c9b1a4ca5d5af")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("CampingApp3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CampingApp3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

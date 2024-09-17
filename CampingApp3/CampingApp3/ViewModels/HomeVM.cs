@@ -1,6 +1,6 @@
 ﻿using CampingApp3.ViewModels;
 
-namespace Homepage.ViewModels
+namespace CampingApp3.ViewModels
 {
     class HomeVM : ViewModelBase
     {

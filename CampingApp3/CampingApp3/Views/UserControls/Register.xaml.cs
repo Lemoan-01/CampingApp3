@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 ﻿using Homepage.ViewModels;
+=======
+﻿using CampingApp3.Models.Services;
+using CampingApp3.ViewModels;
+>>>>>>> Stashed changes
 using System;
 using System.Collections.Generic;
 using System.Linq;

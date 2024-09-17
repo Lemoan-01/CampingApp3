@@ -95,6 +95,18 @@ namespace CampingApp3.Views
             }
         }
 
+        public void pnlTopBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed) { this.DragMove(); }
+            if (e.LeftButton == MouseButtonState.Pressed && this.WindowState == WindowState.Maximized)
+            {
+                // Exit fullscreen mode
+                this.WindowState = WindowState.Normal;
+            }
+        }
+
+
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;

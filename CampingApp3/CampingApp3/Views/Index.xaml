@@ -8,7 +8,16 @@
         xmlns:Menu="clr-namespace:CampingApp3.Resources"
         mc:Ignorable="d"
         Title="Index" Height="450" Width="800">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../Styles/Button.xaml"/>
+                <ResourceDictionary Source="../Styles/Text.xaml"/>
+                <ResourceDictionary Source="../Styles/Page.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
 
+    </Window.Resources>
     <Border BorderBrush="#FF0E3A64" BorderThickness="2">
         <!-- Add Border around Grid -->
         <!-- Background Grid -->
@@ -33,7 +42,7 @@
 
             <!-- Left StackPanel -->
             <StackPanel x:Name="pnlSelectionBar" Background="#282C31" Width="180" Orientation="Vertical" HorizontalAlignment="Left" MouseDown="pnlSelectionBar_MouseDown">
-                <Image Height="100" Width="100" Source="/imgRoundedKangaroo.png" Margin="0,20,0,0">
+                <Image Height="100" Width="100" Source="C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\Resources\Images\imgRoundedKangaroo.png" Margin="0,20,0,0">
                     <Image.Effect>
                         <DropShadowEffect ShadowDepth="0" Color="#FF2B88CA" Opacity="1" BlurRadius="65"/>
                     </Image.Effect>

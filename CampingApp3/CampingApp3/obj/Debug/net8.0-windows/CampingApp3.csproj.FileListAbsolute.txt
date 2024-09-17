@@ -2,6 +2,11 @@ C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windo
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Button.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Page.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Styles\Text.baml
+<<<<<<< Updated upstream
+=======
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\App.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\DescriptionPop.baml
+>>>>>>> Stashed changes
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\MakeReservationPage.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\WindowBase.baml
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\MakeReservationPage.g.cs
@@ -11,3 +16,28 @@ C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windo
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.cache
 C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3_MarkupCompile.lref
+<<<<<<< Updated upstream
+=======
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\Index.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Account.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Admin.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Home.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Loading.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Login.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Map.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Views\UserControls\Register.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\refint\CampingApp3.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.pdb
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.deps.json
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.dll
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\bin\Debug\net8.0-windows\CampingApp3.pdb
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\Resources\DataTemplate.baml
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.g.resources
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.AssemblyInfoInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.AssemblyInfo.cs
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\CampingApp3.sourcelink.json
+C:\Users\leond\source\CampingApp3\CampingApp3\CampingApp3\obj\Debug\net8.0-windows\ref\CampingApp3.dll
+>>>>>>> Stashed changes
