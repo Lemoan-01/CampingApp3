@@ -1,0 +1,6 @@
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.AssemblyReference.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfoInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.AssemblyInfo.cs
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.csproj.CoreCompileInputs.cache
+C:\Users\leond\source\CampingApp3\CampingApp3\Startup\obj\Debug\net8.0-windows\Startup.sourcelink.json
