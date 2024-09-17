@@ -1,4 +1,4 @@
-﻿<local:WindowBase 
+﻿<Window 
         x:Class="CampingApp3.Views.MakeReservationPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -32,4 +32,4 @@
             <Image Margin="536,60,12,118" Source="/mascot.png"/>
         </Grid>
     </Border>
-</local:WindowBase>
+</Window>

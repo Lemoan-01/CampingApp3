@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D3zUbntv1RL5tWOLHH3/9aiR6rfiM7L91dtjDPek09jcEIZa31ev+WHc156+w4pTAtstEIVnrlayjsuGcLZoFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\Startup\\Startup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leond\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\leond\\.nuget\\packages\\mysqlconnector\\2.3.7\\mysqlconnector.2.3.7.nupkg.sha512",
+    "C:\\Users\\leond\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

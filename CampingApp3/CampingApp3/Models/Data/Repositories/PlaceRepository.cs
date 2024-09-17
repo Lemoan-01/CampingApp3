@@ -1,10 +1,12 @@
-﻿using MySqlConnector;
+﻿using CampingApp3.Models.Data.Interfaces;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace CampingApp3.Models.Data.Repositories
 {
@@ -141,5 +143,35 @@ namespace CampingApp3.Models.Data.Repositories
 
             return null;
         }
+
+        public bool UpdatePrice(int newPrice, int placeID)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(_connectionString))
+                {
+                    connection.Open();
+                    string query = "UPDATE place SET price = @newPrice WHERE placeID = @placeID;";
+
+                    using (var command = new MySqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@newPrice", newPrice);
+                        command.Parameters.AddWithValue("@placeID", placeID);
+
+                        // Execute the update query
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        // Return true if at least one row was affected, otherwise false
+                        return rowsAffected > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}");
+                return false; // Return false if an exception occurs
+            }
+        }
+
     }
 }

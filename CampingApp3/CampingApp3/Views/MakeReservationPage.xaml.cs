@@ -1,4 +1,5 @@
-﻿using CampingApp3.Views;
+﻿using CampingApp3.Models.Services;
+using CampingApp3.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,26 +19,24 @@ namespace CampingApp3.Views
 	/// <summary>
 	/// Interaction logic for MakeReservationPage.xaml
 	/// </summary>
-	public partial class MakeReservationPage : WindowBase
+	public partial class MakeReservationPage : Window
 	{
 		private DateTime dateStart;
 		private DateTime dateEnd;
 		private int placeID;
 		public static int userID { get; set; } = -1;
+		private WindowBase wb;
+		private readonly ReservationService dbReservation;
 
-		public MakeReservationPage()
+        public MakeReservationPage(int placeID, DateTime firstDates, DateTime lastDates) : base()
 		{
-
-		}
-
-		public MakeReservationPage(int placeID, DateTime firstDates, DateTime lastDates) : base()
-		{
-			base.ChildForm = this; InitializeComponent();
+			InitializeComponent();
 			this.placeID = placeID;
 			this.dateStart = firstDates;
 			this.dateEnd = lastDates;
+			wb = new WindowBase();
 
-			for (int i = 1; i <= 12; i++) //12 mensen max per plek i guess
+            for (int i = 1; i <= 12; i++) //12 mensen max per plek i guess
 			{
 				aantPersonen.Items.Add(i);
 			}
@@ -74,7 +73,17 @@ namespace CampingApp3.Views
 		{
 			Button button = (Button)sender;
 
-			if (button.Name == "Cancel")
+			if(button.Name == "btnTerminate")
+			{
+				wb.btnTerminate_Click();
+				return;
+            }			
+			if(button.Name == "btnMinimize")
+			{
+				wb.btnMinimize_Click();
+				return;
+            }
+            if (button.Name == "Cancel")
 			{
 				this.Close();
 			}
@@ -85,12 +94,9 @@ namespace CampingApp3.Views
 					if (aantPersonen.SelectedItem != null)
 					{
 						System.Diagnostics.Process.Start("https://www.paypal.com/us/home");
-
-						DatabaseConnector.DBFunctions dbFunc = new DatabaseConnector.DBFunctions();
-
 						int aantalPersonen = (int)aantPersonen.SelectedItem;
 
-						dbFunc.InsertReservation(placeID, dateStart, dateEnd, aantalPersonen, userID);
+						dbReservation.InsertReservation(placeID, dateStart, dateEnd, aantalPersonen, userID, false);
 					}
 				}
 				else

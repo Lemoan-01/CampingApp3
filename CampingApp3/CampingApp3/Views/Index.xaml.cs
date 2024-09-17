@@ -1,27 +1,33 @@
 ﻿using System;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace CampingApp3.Views
 {
     /// <summary>
     /// Interaction logic for Index.xaml
     /// </summary>
-    public partial class Index : WindowBase
+    public partial class Index : Window
     {
 		private bool isAdmin = false;
-		public Index() : base()
+        public static int userID { get; set; } = -1; // default value for guests
+		private WindowBase wb;
+        public Index()
 		{
-			base.ChildForm = this; InitializeComponent();
+			InitializeComponent();
 
+			wb = new WindowBase();
 			accInfo.Visibility = Visibility.Collapsed;
 			btnAdminPage.Visibility = Visibility.Collapsed;
 		}
 
-		public Index(int _userID, bool isAdmin) : base() // Explicitly call base constructor
+		public Index(int _userID, bool isAdmin)
 		{
-			base.ChildForm = this; InitializeComponent();
+			InitializeComponent();
 
 			userID = _userID;
-			string email = dbFunc.GetEmail(userID);
+			/*			string email = dbFunc.GetEmail(userID);*/
+			string email = "temp";
 			this.isAdmin = isAdmin;
 
 			if (userID != -1)
@@ -42,6 +48,30 @@ namespace CampingApp3.Views
 			}
 		}
 
-		public static int userID { get; set; } = -1; // default value for guests
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			Button button = (Button)sender;
+
+			if (button.Name == "btnTerminate")
+			{
+				wb.btnTerminate_Click();
+				return;
+			}
+			if (button.Name == "btnMinimize")
+			{
+				wb.btnMinimize_Click();
+				return;
+			}
+			if(button.Name == "btnFullscreen")
+			{
+				wb.btnFullscreen_Click();
+				return;
+            }
+		}
+
+        public void CloseHomepage()
+		{
+			this.Close();
+		}
 	}
 }

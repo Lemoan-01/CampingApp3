@@ -4,38 +4,42 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CampingApp3.Views.UserControls"
+             xmlns:uc="clr-namespace:CampingApp3.Views.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="545" d:DesignWidth="616" Style="{StaticResource Page_Style}">
-    
+             d:DesignHeight="545" d:DesignWidth="616">
+
     <UserControl.Resources>
-        <Style x:Key="RoundedButtonStyle" TargetType="Button">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                BorderBrush="{TemplateBinding BorderBrush}"
-                                BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="5">
-                            <!-- Adjust the CornerRadius to make it rounder -->
-                            <ContentPresenter HorizontalAlignment="Center"
-                                              VerticalAlignment="Center"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="Bisque"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+        <ResourceDictionary>
+            <!-- Merge Styles -->
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/CampingApp3;component/Styles/Page.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Rounded Button Style -->
+            <Style x:Key="RoundedButtonStyle" TargetType="Button">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="5">
+                                <ContentPresenter HorizontalAlignment="Center"
+                                                  VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="Bisque"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </UserControl.Resources>
 
-    <UserControl.DataContext>
-        <vm:ReservationVM/>
-    </UserControl.DataContext>
-
-    <Grid Background="#20262B">
+    <Grid x:Name="MapGridSuper" Background="#20262B">
         <Label Content="Book Reservation" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="22"/>
 
         <!-- Using a ViewBox to contain both the map image and buttons, without this it won't resize properly -->
@@ -136,6 +140,6 @@
             <Image x:Name="imgEmptyView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="/Views/emptyview.png" Stretch="Fill" Opacity="0.85"/>
         </Grid>
 
-        <local:Loading x:Name="loadingScreen" Visibility="Collapsed" Panel.ZIndex="1"/>
+        <uc:Loading x:Name="loadingScreen" Visibility="Collapsed" Panel.ZIndex="1"/>
     </Grid>
 </UserControl>

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CampingApp3.Models.Services;
+using CampingApp3.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,12 +24,16 @@ namespace CampingApp3.Views.UserControls
     {
         private int _placeID;
         private int _newPrice;
-        DBFunctions dbFunctions = new DBFunctions();
+        private readonly PlaceService dbPlace;
+        private readonly ReservationService dbReservation;
 
         public Admin()
         {
             InitializeComponent();
+            this.DataContext = new AdminVM();
+
             SetPlaceholderText();
+
         }
 
         private void SetPlaceholderText()
@@ -95,7 +101,7 @@ namespace CampingApp3.Views.UserControls
             {
                 _placeID = int.Parse(txtbPID.Text); // Changed to txtbPID.Text
                 _newPrice = newPrice;
-                dbFunctions.UpdatePrice(_newPrice, _placeID);
+                dbPlace.UpdatePrice(_newPrice, _placeID);
                 MessageBox.Show("The price has been successfully updated.");
             }
         }
@@ -128,7 +134,7 @@ namespace CampingApp3.Views.UserControls
 
             if (!string.IsNullOrWhiteSpace(txtBlock.Text))
             {
-                dbFunctions.InsertReservation(placeID, StartDatePicker.SelectedDate, EndDatePicker.SelectedDate, 1, -1, true);
+                dbReservation.InsertReservation(placeID, StartDatePicker.SelectedDate, EndDatePicker.SelectedDate, 1, -1, true);
                 MessageBox.Show("The place has been successfully blocked");
             }
         }

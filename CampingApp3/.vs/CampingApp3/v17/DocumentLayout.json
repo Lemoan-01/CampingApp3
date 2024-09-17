@@ -3,36 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\windowbase.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\windowbase.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\descriptionpop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\descriptionpop.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\makereservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\makereservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\makereservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\makereservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\reservationfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\reservationfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\descriptionpop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\descriptionpop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\index.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\index.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\windowbase.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\windowbase.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{63D1B885-1601-4C44-A1DC-78B5EFB871F5}|Startup\\Startup.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\startup\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63D1B885-1601-4C44-A1DC-78B5EFB871F5}|Startup\\Startup.csproj|solutionrelative:startup\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63D1B885-1601-4C44-A1DC-78B5EFB871F5}|Startup\\Startup.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\startup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63D1B885-1601-4C44-A1DC-78B5EFB871F5}|Startup\\Startup.csproj|solutionrelative:startup\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\index.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\descriptionpop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\descriptionpop.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\reservationfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\reservationfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\makereservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\makereservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\interfaces\\iplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\interfaces\\iplacerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\windowbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\windowbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\navigationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\adminvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\adminvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\makereservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\makereservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\campingapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\campingapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\loading.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\loading.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\account.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\services\\placeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\repositories\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\repositories\\placerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\idatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\idatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\map.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\loading.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\loading.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\account.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\styles\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\styles\\page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\reservationfilter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -41,10 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.filenesting.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\campingapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\campingapp3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\resources\\btn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,14 +205,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\resources\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\resources\\datatemplate.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\views\\usercontrols\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\views\\usercontrols\\map.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|c:\\users\\leond\\source\\campingapp3\\campingapp3\\campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB043DBC-8E9F-4EBD-AF98-972E9C51E43A}|CampingApp3\\CampingApp3.csproj|solutionrelative:campingapp3\\models\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 46,
           "Children": [
             {
               "$type": "Bookmark",
@@ -226,7 +366,128 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIAywBIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:50:19.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\Startup\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Startup\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\Startup\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Startup\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:40:08.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs",
+              "RelativeToolTip": "CampingApp3\\obj\\Debug\\net8.0-windows\\Views\\App.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:30:01.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\Index.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\Index.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\Index.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\Index.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA6wA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:10:00.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAtwBEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:26:39.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DescriptionPop.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\DescriptionPop.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\DescriptionPop.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAhwB8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:12:14.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MakeReservationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\MakeReservationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\MakeReservationPage.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwF8AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:23:53.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Home.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Home.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:31:37.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\App.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\App.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\App.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T12:10:00.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DescriptionPop.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\DescriptionPop.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\DescriptionPop.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T07:29:04.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.xaml",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\Index.xaml",
               "RelativeDocumentMoniker": "CampingApp3\\Views\\Index.xaml",
@@ -238,108 +499,428 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WindowBase.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\WindowBase.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\WindowBase.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:31:54.115Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\Startup\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Startup\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\Startup\\MainWindow.xaml",
+              "RelativeToolTip": "Startup\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T12:40:09.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\UserService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:24:13.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:05:05.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReservationFilter.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\ReservationFilter.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\ReservationFilter.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAD4v44AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:26:20.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IPlaceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IPlaceRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Interfaces\\IPlaceRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IPlaceRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Interfaces\\IPlaceRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:21:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:27:04.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WindowBase.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\WindowBase.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\WindowBase.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAIAxwDcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T07:45:09.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NavigationVM.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\NavigationVM.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\NavigationVM.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\NavigationVM.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\NavigationVM.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAA3wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:11:13.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\ReservationRepository.cs",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAlwAoBAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:56:04.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\App.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:08:41.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminVM.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\AdminVM.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\AdminVM.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\AdminVM.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\AdminVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:16:34.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\ReservationService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\ReservationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T09:24:44.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:11:40.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\HomeVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:16:58.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "MakeReservationPage.xaml",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml",
               "RelativeDocumentMoniker": "CampingApp3\\Views\\MakeReservationPage.xaml",
               "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml",
               "RelativeToolTip": "CampingApp3\\Views\\MakeReservationPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-16T07:26:34.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T07:26:34.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WindowBase.xaml",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.xaml",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\WindowBase.xaml",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\WindowBase.xaml",
-              "RelativeToolTip": "CampingApp3\\Views\\WindowBase.xaml",
+              "DocumentIndex": 26,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "CampingApp3\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T11:17:00.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Map.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Map.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Map.xaml.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAwIsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:13:00.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Loading.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Loading.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Loading.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Loading.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Loading.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:40:21.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Login.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Login.xaml.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T08:40:31.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Login.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Login.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Login.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-16T07:31:51.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T07:30:05.868Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReservationFilter.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\ReservationFilter.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\ReservationFilter.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAwAAAA",
+              "DocumentIndex": 33,
+              "Title": "Account.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Account.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Account.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Account.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Account.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAlwGMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:26:20.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T08:01:24.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MakeReservationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\MakeReservationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\MakeReservationPage.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\MakeReservationPage.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAwwB8AAAAAAAAA",
+              "DocumentIndex": 34,
+              "Title": "Admin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Admin.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Admin.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Admin.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Admin.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAvwGEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:23:53.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T08:28:59.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\Index.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\Index.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\Index.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\Index.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "DocumentIndex": 35,
+              "Title": "PlaceService.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\PlaceService.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Services\\PlaceService.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Services\\PlaceService.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Services\\PlaceService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:10:00.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T09:24:30.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DescriptionPop.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\DescriptionPop.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\DescriptionPop.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\DescriptionPop.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "DocumentIndex": 27,
+              "Title": "CampingApp3.csproj",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
+              "RelativeDocumentMoniker": "CampingApp3\\CampingApp3.csproj",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
+              "RelativeToolTip": "CampingApp3\\CampingApp3.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-16T07:14:11.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Register.xaml.cs",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Register.xaml.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAA8wGkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:12:14.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-17T09:09:15.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 36,
+              "Title": "PlaceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\Repositories\\PlaceRepository.cs",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAUwJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:09:49.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T07:09:15.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IDataBaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\IDataBaseConnection.cs",
+              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\IDataBaseConnection.cs",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\IDataBaseConnection.cs",
+              "RelativeToolTip": "CampingApp3\\Models\\Data\\IDataBaseConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T10:15:30.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Loading.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Loading.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Loading.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Loading.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Loading.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T08:40:18.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Map.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Map.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Map.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T08:42:06.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Admin.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Admin.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Admin.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Admin.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Admin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T08:22:02.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Home.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Home.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Home.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T07:47:17.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Register.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Register.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Register.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Register.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T09:08:29.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Account.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Account.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Account.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Account.xaml",
+              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Account.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T08:01:33.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Page.xaml",
+              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Styles\\Page.xaml",
+              "RelativeDocumentMoniker": "CampingApp3\\Styles\\Page.xaml",
+              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Styles\\Page.xaml",
+              "RelativeToolTip": "CampingApp3\\Styles\\Page.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-17T08:15:18.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "ReservationFilter.xaml",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml",
               "RelativeDocumentMoniker": "CampingApp3\\Views\\ReservationFilter.xaml",
               "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\ReservationFilter.xaml",
               "RelativeToolTip": "CampingApp3\\Views\\ReservationFilter.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-16T07:31:05.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T07:31:05.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 49,
               "Title": "Button.xaml",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Styles\\Button.xaml",
               "RelativeDocumentMoniker": "CampingApp3\\Styles\\Button.xaml",
@@ -350,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 48,
               "Title": "Btn.cs",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Resources\\Btn.cs",
               "RelativeDocumentMoniker": "CampingApp3\\Resources\\Btn.cs",
@@ -362,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 47,
               "Title": ".filenesting.json",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\.filenesting.json",
               "RelativeDocumentMoniker": ".filenesting.json",
@@ -374,19 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CampingApp3.csproj",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
-              "RelativeDocumentMoniker": "CampingApp3\\CampingApp3.csproj",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\CampingApp3.csproj",
-              "RelativeToolTip": "CampingApp3\\CampingApp3.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-16T07:14:11.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 50,
               "Title": "DataTemplate.xaml",
               "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Resources\\DataTemplate.xaml",
               "RelativeDocumentMoniker": "CampingApp3\\Resources\\DataTemplate.xaml",
@@ -394,30 +963,6 @@
               "RelativeToolTip": "CampingApp3\\Resources\\DataTemplate.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-16T08:10:29.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Map.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Views\\UserControls\\Map.xaml.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Views\\UserControls\\Map.xaml.cs",
-              "RelativeToolTip": "CampingApp3\\Views\\UserControls\\Map.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:13:00.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\leond\\source\\CampingApp3\\CampingApp3\\CampingApp3\\Models\\Data\\DatabaseConnection.cs",
-              "RelativeToolTip": "CampingApp3\\Models\\Data\\DatabaseConnection.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T07:09:15.718Z"
             }
           ]
         }

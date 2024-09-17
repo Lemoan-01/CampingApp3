@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CampingApp3.Models.Services;
+using CampingApp3.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,13 +22,15 @@ namespace CampingApp3.Views.UserControls
     /// </summary>
     public partial class Account : UserControl
     {
-        DatabaseConnector.DBFunctions dbFunc = new DatabaseConnector.DBFunctions();
+        private readonly ReservationService dbReservation;
+        private readonly PlaceService dbPlace;
         private int userID = -1;
         private int reservationID = -1;
 
         public Account()
         {
             InitializeComponent();
+            this.DataContext = new AccountVM();
 
             this.userID = Index.userID;
 
@@ -44,12 +48,12 @@ namespace CampingApp3.Views.UserControls
         {
             cmboxReservations.Items.Clear();
 
-            List<int> listReservationsOnUserID = dbFunc.GetReservationsByUserID(userID);
+            List<int> listReservationsOnUserID = dbReservation.GetReservationsByUserID(userID);
             if (listReservationsOnUserID.Count > 0)
             {
                 foreach (int intReservationID in listReservationsOnUserID) //pak er eentsje
                 {
-                    cmboxReservations.Items.Add(new ComboBoxItem { Content = dbFunc.GetReservationDescription(intReservationID), Tag = intReservationID });
+                    cmboxReservations.Items.Add(new ComboBoxItem { Content = dbReservation.GetReservationDescription(intReservationID), Tag = intReservationID });
                 }
             }
             else
@@ -77,8 +81,8 @@ namespace CampingApp3.Views.UserControls
 
             if (selectedReservationItem != null && reservationID != -1) //kan in principe weg 
             {
-                int placeID = dbFunc.GetPlaceIDByReservationID(reservationID);
-                string spotInformation = dbFunc.GetDescription(placeID);
+                int placeID = dbReservation.GetPlaceIDByReservationID(reservationID);
+                string spotInformation = dbPlace.GetDescription(placeID);
                 SpotInformationTextBlock.Text = spotInformation;
             }
         }
@@ -93,7 +97,7 @@ namespace CampingApp3.Views.UserControls
 
                 if (result == MessageBoxResult.Yes)
                 {
-                    dbFunc.DeleteReservation(reservationID);
+                    dbReservation.DeleteReservation(reservationID);
                     PopulateReservations(); // Refresh the reservations list
                 }
             }

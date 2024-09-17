@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CampingApp3.ViewModels;
+using Homepage.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,7 @@ namespace CampingApp3.Views.UserControls
         public Home()
         {
             InitializeComponent();
+            this.DataContext = new HomeVM();
         }
     }
 }

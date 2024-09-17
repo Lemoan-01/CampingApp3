@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CampingApp3.Views.UserControls;
+using CampingApp3.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,22 +13,24 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using CampingApp3.Models.Services;
 
 namespace CampingApp3.Views
 {
     /// <summary>
     /// Interaction logic for ReservationFilter.xaml
     /// </summary>
-    public partial class ReservationFilter : WindowBase
+    public partial class ReservationFilter : Window
     {
         private double _previousWidth;
         private double _previousHeight;
         public static DateTime firstDates { get; set; }
         public static DateTime lastDates { get; set; }
         private int dateSelectionCounter = 0;
+        private readonly ReservationService dbReservation;
         public ReservationFilter() : base()
         {
-			base.ChildForm = this; InitializeComponent();
+			InitializeComponent();
 
 			Owner = Application.Current.MainWindow; // Set the owner to MainWindow
             UpdatePosition(); // Set initial position
@@ -120,13 +124,11 @@ namespace CampingApp3.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var reservationWindow = Reservation.Instance;
+            var reservationWindow = Map.Instance;
             reservationWindow.LoadDataAsync();
 
             if (reservationWindow != null && StartDatePicker.SelectedDate != null && EndDatePicker.SelectedDate != null)
             {
-                if (dbFunc.IsConnectionAvailable()) // Check if database connection is available
-                {
                     Grid mapGrid = reservationWindow.GetMapGrid();
                     int btnCounter = 0;
 
@@ -134,7 +136,7 @@ namespace CampingApp3.Views
                     {
                         if (child is Button button && button.Name != "btnInformation")
                         {
-                            bool isAvailable = dbFunc.isAvailable(btnCounter, (DateTime)StartDatePicker.SelectedDate, (DateTime)EndDatePicker.SelectedDate);
+                            bool isAvailable = dbReservation.isAvailable(btnCounter, (DateTime)StartDatePicker.SelectedDate, (DateTime)EndDatePicker.SelectedDate);
                             if (!isAvailable) // Only color the buttons that are not available
                             {
                                 button.Background = Brushes.OrangeRed;
@@ -149,11 +151,6 @@ namespace CampingApp3.Views
 
                         btnCounter++; // Iterate through all buttons
                     }
-                }
-                else
-                {
-                    MessageBox.Show("No database connection. Please check your connection and try again.");
-                }
             }
             else
             {

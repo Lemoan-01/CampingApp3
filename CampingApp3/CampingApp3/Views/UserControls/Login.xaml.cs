@@ -1,4 +1,6 @@
-﻿using MySqlConnector;
+﻿using CampingApp3.Models.Services;
+using Homepage.ViewModels;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,11 +23,12 @@ namespace CampingApp3.Views.UserControls
     /// </summary>
     public partial class Login : UserControl
     {
-        DatabaseConnector.DBFunctions dbFunc = new DatabaseConnector.DBFunctions();
+        private readonly UserService dbUser;
 
         public Login()
         {
             InitializeComponent();
+            this.DataContext = new LoginVM();
 
         }
 
@@ -39,55 +42,39 @@ namespace CampingApp3.Views.UserControls
                 MessageBox.Show("Please fill in all the fields.", "Incomplete Information", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-
-            string query = "SELECT COUNT(*) FROM user WHERE email = @Email AND password = SHA2(@Password, 256)";
-
-            object result = dbFunc.ExecuteScalar(query,
-                new MySqlParameter("@Email", email),
-                new MySqlParameter("@Password", password));
-
-            int count = Convert.ToInt32(result);
-
-            if (count == 1)// Login successful
+            else //all fields filled
             {
-                MessageBox.Show("Login successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                int userId = dbUser.LoginVerification(email, password); //login
 
-                string queryGetUserID = "SELECT userID FROM user WHERE email = @Email";
-                object getUserIDResult = dbFunc.ExecuteScalar(queryGetUserID,
-                    new MySqlParameter("@Email", email),
-                    new MySqlParameter("@Password", password));
-                int userID = Convert.ToInt32(getUserIDResult);
+                if (userId != -1)// Login successful
+                {
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                string queryGetIsAdmin = "SELECT IsAdmin FROM user WHERE email = @Email";
-                object getIsAdminResult = dbFunc.ExecuteScalar(queryGetIsAdmin,
-                    new MySqlParameter("@Email", email),
-                    new MySqlParameter("@Password", password));
-                bool IsAdmin = Convert.ToBoolean(getIsAdminResult);
-
-/*                restartHomepage(userID, IsAdmin);*/
-                MakeReservationPage.userID = userID;
-            }
-            else
-            {
-                // Login failed
-                MessageBox.Show("Invalid email or password. Please try again.", "Login Failed", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    restartHomepage(userId, dbUser.IsAdmin(userId));
+                    MakeReservationPage.userID = userId;
+                }
+                else
+                {
+                    // Login failed
+                    MessageBox.Show("Invalid email or password. Please try again.", "Login Failed", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
             }
         }
 
-/*        private static void restartHomepage(int _userID, bool _IsAdmin)
+        private static void restartHomepage(int _userID, bool _IsAdmin)
         {
             Index mw = new Index(_userID, _IsAdmin);
             mw.Show();
 
             //CLOSE v EN REOPEN ^
-            var mainWindow = Application.Current.MainWindow as MainWindow;
+            var mainWindow = Application.Current.MainWindow as Index;
 
             // Ensure mainWindow is not null and call the closeHomePage method
             if (mainWindow != null)
             {
-                mainWindow.closeHomePage();
+                mainWindow.CloseHomepage();
             }
-        }*/
+        }
 
         private void txtbEmail_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {

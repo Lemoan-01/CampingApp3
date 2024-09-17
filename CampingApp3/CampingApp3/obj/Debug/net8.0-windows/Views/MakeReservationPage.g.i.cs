@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using CampingApp3.Resources;
 using CampingApp3.Views;
 using System;
 using System.Diagnostics;
@@ -110,7 +109,7 @@ namespace CampingApp3.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CampingApp3;V1.0.0.0;component/views/makereservationpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CampingApp3;component/views/makereservationpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\MakeReservationPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,4 +1,5 @@
-﻿using Homepage.ViewModels;
+﻿using CampingApp3.Models.Services;
+using Homepage.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,11 +24,12 @@ namespace CampingApp3.Views.UserControls
     public partial class Register : UserControl
     {
         // Local Variables
-        DatabaseConnector.DBFunctions dbFunc = new DatabaseConnector.DBFunctions();
+        private readonly UserService dbUser;
 
         public Register()
         {
             InitializeComponent();
+            this.DataContext = new RegisterVM();
         }
 
         private void clearPlaceholder_PreviewMouseDown(object sender, MouseButtonEventArgs e)
@@ -67,46 +69,48 @@ namespace CampingApp3.Views.UserControls
         private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
             string email = txtbEmail.Text.Trim();
-            string phoneNumber = txtbPhoneNumber.Text;
+            string phoneNumberStr = txtbPhoneNumber.Text; // Get phone number as string
             string password = pwboxPassword.Password;
             string passwordconfirm = pwboxConfirmPassword.Password;
 
-            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(phoneNumber) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(passwordconfirm))
+            // Validate that all fields are filled
+            if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(phoneNumberStr) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(passwordconfirm))
             {
                 MessageBox.Show("Please fill in all the fields.", "Incomplete Information", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
+            // Validate email format
             if (!IsValidEmail(email))
             {
                 MessageBox.Show("Please enter a valid email address.", "Invalid Email", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            if (!IsValidPhoneNumber(phoneNumber))
+            // Validate phone number format
+            if (!IsValidPhoneNumber(phoneNumberStr))
             {
                 MessageBox.Show("Please enter a valid phone number.", "Invalid Phone Number", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
+            // Convert phone number to integer
+            if (!int.TryParse(phoneNumberStr, out int phoneNumber))
+            {
+                MessageBox.Show("Phone number conversion failed. Please enter a valid phone number.", "Conversion Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            // Check password confirmation
             if (password == passwordconfirm)
             {
-                string query = "INSERT INTO user (email, phoneNumber, password) VALUES (@email, @phoneNumber, SHA2(@password, 256))";
-                try
+                if (dbUser.Register(email, phoneNumber, password))
                 {
-                    dbFunc.InsertData(query,
-                         new MySqlConnector.MySqlParameter("@email", email),
-                         new MySqlConnector.MySqlParameter("@phoneNumber", phoneNumber),
-                         new MySqlConnector.MySqlParameter("@password", password));
-
-                    var navigationVM = App.Current.MainWindow.DataContext as NavigationVM;
-                    navigationVM.CurrentView = new LoginVM();
-
-                    MessageBox.Show("Successfully registered!", "Registered", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Registration successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
                 }
-                catch (Exception ex)
+                else
                 {
-                    MessageBox.Show("Error occurred while registering: " + ex.Message, "Registration Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show("Registration failed. Please try again.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             else
@@ -114,6 +118,7 @@ namespace CampingApp3.Views.UserControls
                 MessageBox.Show("Password confirmation failed. Please make sure your passwords match.", "Password Mismatch", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
+
 
         private bool IsValidEmail(string email)
         {

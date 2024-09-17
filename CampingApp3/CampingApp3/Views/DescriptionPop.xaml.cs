@@ -1,4 +1,5 @@
-﻿using CampingApp3.ViewModels;
+﻿using CampingApp3.Models.Services;
+using CampingApp3.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,18 +20,19 @@ namespace CampingApp3.Views
     /// <summary>
     /// Interaction logic for DescriptionPop.xaml
     /// </summary>
-    public partial class DescriptionPop : WindowBase
+    public partial class DescriptionPop : Window
     {
         private int placeID;
+        private readonly PlaceService dbPlace;
+        private WindowBase wb;
 
         public DescriptionPop(int placeID) : base()
         {
             InitializeComponent();
-
-            this.DataContext = new ViewModels.NavigationVM();
+            wb = new WindowBase();
 
             this.placeID = placeID;
-            string spotDescription = dbFunc.GetDescription(placeID);
+            string spotDescription = dbPlace.GetDescription(placeID);
 
             Label labelSpotID = new Label()
             {
@@ -64,9 +66,9 @@ namespace CampingApp3.Views
             LoadImage();
         }
 
-        private void LoadImage() //voor individuele imgs plek
+            private void LoadImage() //voor individuele imgs plek
         {
-            byte[] bytingImage = dbFunc.GetImageFromDatabase(placeID);
+            byte[] bytingImage = dbPlace.GetImageFromDatabase(placeID);
             BitmapImage bitmapImage = ByteArrayToBitmapImage(bytingImage);
 
             Image displayImage = new Image()
@@ -99,18 +101,20 @@ namespace CampingApp3.Views
         {
             Button button = (Button)sender;
 
-            if (button.Name == "Cancel")
+            if (button.Name == "btnTerminate")
             {
-                this.Close();
+                wb.btnTerminate_Click();
+                return;
             }
-            else
+            
+            if (button.Name == "MakeReservation")
             {
                 DateTime startDate = ReservationFilter.firstDates;
                 DateTime endDate = ReservationFilter.lastDates;
 
                 if (!startDate.Equals(DateTime.MinValue) && !endDate.Equals(DateTime.MinValue)) //als ze allebei niet hun default-waarde zijn
                 {
-                    MakeReservationPage.MainWindow mk = new MakeReservationPage.MainWindow(placeID, startDate, endDate);
+                    MakeReservationPage mk = new MakeReservationPage(placeID, startDate, endDate);
                     mk.Show();
                 }
                 else

@@ -5,10 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CampingApp3.Views.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="545" d:DesignWidth="616" Style="{StaticResource Page_Style}">
-    <UserControl.DataContext>
-        <vm:HomeVM/>
-    </UserControl.DataContext>
+             d:DesignHeight="545" d:DesignWidth="616">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CampingApp3;component/Styles/Page.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
 
     <Grid Background="#20262B">
         <Grid.RowDefinitions>
@@ -32,7 +36,7 @@
 
         <!-- Image -->
         <Border Grid.Row="2" Margin="15">
-            <Image Source="/Views/campsite.png" Stretch="UniformToFill"/>
+            <Image Source="pack://application:,,,/CampingApp3;component/Resources/Images/campsite.png" Stretch="UniformToFill"/>
         </Border>
 
     </Grid>

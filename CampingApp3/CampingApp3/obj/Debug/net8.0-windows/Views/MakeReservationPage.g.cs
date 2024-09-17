@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using CampingApp3.Resources;
 using CampingApp3.Views;
 using System;
 using System.Diagnostics;

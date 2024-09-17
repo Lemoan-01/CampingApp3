@@ -5,7 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CampingApp3.Views.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="545" d:DesignWidth="616" Style="{StaticResource Page_Style}">
+             d:DesignHeight="545" d:DesignWidth="616">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/CampingApp3;component/Styles/Page.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
     <Grid Background="#20262B">
         <Label Content="Account" Margin="10,10,453,0" VerticalAlignment="Top" FontFamily="Century Gothic" FontSize="24" Foreground="White"/>
         <TextBlock Text="Manage your account settings or modify reservations" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" FontSize="14" Margin="15,44,0,0"/>

@@ -1,4 +1,5 @@
-﻿using MySqlConnector;
+﻿using CampingApp3.Models.Data.Interfaces;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -256,6 +257,45 @@ namespace CampingApp3.Models.Data.Repositories
             {
                 MessageBox.Show("An error occurred: " + ex.Message);
                 return false;
+            }
+        }
+
+        public string GetReservationDescription(int reservationID)
+        {
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(_connectionString))
+                {
+                    connection.Open();
+
+                    string query = "SELECT placeID, startDate, endDate FROM reservations WHERE reservationID = @reservationID";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                    {
+                        cmd.Parameters.AddWithValue("@reservationID", reservationID);
+
+                        using (MySqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                int placeID = reader.GetInt32("placeID");
+                                DateTime startDate = reader.GetDateTime("startDate");
+                                DateTime endDate = reader.GetDateTime("endDate");
+
+                                return $"Place: {placeID}, from {startDate.ToShortDateString()} to {endDate.ToShortDateString()}";
+                            }
+                            else
+                            {
+                                return $"No reservation found with ID {reservationID}.";
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Database connection failed");
+                return "An error occurred while retrieving the reservation: " + ex.Message;
             }
         }
     }

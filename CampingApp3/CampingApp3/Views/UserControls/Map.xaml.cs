@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CampingApp3.Models.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,19 +21,26 @@ namespace CampingApp3.Views.UserControls
     /// </summary>
     public partial class Map : UserControl
     {
+        private readonly PlaceService dbPlace;
         private int placeID = 0;
-        private Windows.SpotDescriptionPop sdp;
+        private DescriptionPop sdp;
         private bool reservationFilterOpen = false;
-        private Windows.ReservationFilter reservationFilter;
+        private ReservationFilter reservationFilter;
         private static Map _instance;
         public event EventHandler LoadingCompleted;
+        private Loading loading;
 
         public Map()
         {
             InitializeComponent();
-            LoadDataAsync();
+
+            loading = new Loading();
+            loading.Visibility = Visibility.Collapsed;
+
+            MapGridSuper.Children.Add(loading);
 
             _instance = this;
+            LoadDataAsync();
         }
 
         public static Map Instance
@@ -53,7 +61,7 @@ namespace CampingApp3.Views.UserControls
 
             try
             {
-                DatabaseConnector.DBFunctions dbFunc = new DatabaseConnector.DBFunctions();
+                 
 
                 var buttons = MapGrid.Children.OfType<Button>();
                 int bID = 0;
@@ -63,7 +71,7 @@ namespace CampingApp3.Views.UserControls
                     if (int.TryParse(button.Content.ToString(), out bID))
                     {
                         // Asynchronously wait for the result of isBlockedOnID
-                        bool isBlocked = await Task.Run(() => dbFunc.isBlockedOnID(bID));
+                        bool isBlocked = await Task.Run(() => dbPlace.IsBlockedOnID(bID));
 
                         if (isBlocked)
                         {
@@ -139,7 +147,7 @@ namespace CampingApp3.Views.UserControls
             if (!reservationFilterOpen)
             {
                 // Create a new instance of the reservation filter window
-                reservationFilter = new Windows.ReservationFilter();
+                reservationFilter = new ReservationFilter();
                 reservationFilter.Closed += ReservationFilter_Closed; // Subscribe to the Closed event
                 reservationFilterOpen = true; // Mark the reservation filter window as open
                                               // Set the main window as the owner
